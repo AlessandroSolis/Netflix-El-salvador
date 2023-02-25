@@ -1,0 +1,162 @@
+.preguntas h2{
+	font-weight: bold;
+	font-size: 35px;
+}
+.contPreguntas{
+	width: 650px;
+	margin: auto;
+	text-align: center;
+}
+
+.contPreguntas div{
+	text-align: left;
+	font-size: 20px;
+}
+
+.pregunta{
+	background: #303030;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.respuesta{
+	background: #303030;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.pregunta p, .respuesta p{
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.respuesta hr{
+	border: 1px solid #262626;
+}
+
+.pregunta:hover .respuesta{
+	max-height: 1000px;
+}
+
+.respuesta{
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 1s;
+}
+
+.contPreguntas input{
+	height: 60px;
+    width: 465px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #5695e9;
+    padding-left: 11px;
+    color: #1C1C1C;
+}
+
+.contPreguntas span{
+	background: #e50914;
+    padding: 16px;
+    padding-bottom: 19px;
+    font-weight: 500;
+    margin-left: -5px;
+    border: solid #d30f18;
+}
+
+.contPreguntas h3{
+	font-size: 15px;
+}
+
+.pieContenido{
+	width: 1100px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.pie p{
+	padding:7px;
+}
+.pie .espacio{
+	width: 100px;
+}
+@media screen and (min-width: 720px) {
+    .preguntas h2 {
+      font-weight: bold;
+      font-size: 35px;
+    }
+    .contPreguntas {
+      width: 650px;
+      margin: auto;
+      text-align: center;
+    }
+    .contPreguntas div {
+      text-align: left;
+      font-size: 20px;
+    }
+    .pregunta {
+      background: #303030;
+      padding: 10px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+    .respuesta {
+      background: #303030;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    .pregunta p,
+    .respuesta p {
+      padding: 10px;
+      padding-left: 20px;
+    }
+    .respuesta hr {
+      border: 1px solid #262626;
+    }
+    .pregunta:hover .respuesta {
+      max-height: 1000px;
+    }
+    .respuesta {
+      max-height: 0px;
+      overflow: hidden;
+      transition: all 1s;
+    }
+    .contPreguntas input {
+      height: 60px;
+      width: 465px;
+      margin-top: 20px;
+      margin-bottom: 3px;
+      border-radius: 2px 0px 0px 2px;
+      border: solid 1px #5695e9;
+      padding-left: 11px;
+      color: #1C1C1C;
+    }
+    .contPreguntas span {
+      background: #e50914;
+      padding: 16px;
+      padding-bottom: 19px;
+      font-weight: 500;
+      margin-left: -5px;
+      border: solid #d30f18;
+    }
+    .contPreguntas h3 {
+      font-size: 15px;
+    }
+    .pieContenido {
+      width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .pie p {
+      padding: 7px;
+    }
+    .pie .espacio {
+      width: 100px;
+    }
+  }
+  
